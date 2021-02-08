@@ -1,0 +1,94 @@
+
+.c
+{
+   background-color: #1468ab  !important;
+}
+
+.custom_container2{
+    color: white;
+    padding: 0 70px !important;
+    height: 400px;
+}
+
+.text_container2 p{
+    font-size: 19px;
+color: #eef6fd;
+}
+
+.text_container2{
+    overflow: hidden;
+        align-self: center;
+}
+
+.image_container2{
+    max-height: 295px;
+    text-align: right;
+    padding: 39px;
+}
+
+.image_what_is_bonpedia2{
+width: 75%;
+    border-radius: 10px;
+}
+
+
+@media screen and (min-width : 992px) and (max-width: 1200px){
+       .custom_container2{
+              padding: 0 70px !important;
+              height: 413px;
+       }
+}
+
+@media screen and (max-width : 992px){
+       .custom_container2 {
+              padding: 0 23px !important;
+       }
+       
+}
+
+@media screen and (max-width : 420px){
+       .image_what_is_bonpedia2{
+              width: 80%;
+       }
+}
+
+@media screen and (max-width : 767px){
+
+       .image_container2{
+                  margin-top: 40px;
+                  max-height: 295px;
+              text-align: center;
+              padding: 0 10px;
+              margin: 0;
+       }
+       .text_container2{
+              text-align: center;
+                  padding-top: 10px;
+       }
+
+       .custom_container2{
+              height: 875px;
+       }
+}
+
+@media screen and (min-width : 420px) and (max-width : 500px){
+       .image_what_is_bonpedia2{
+              width: 70%;
+       }
+}
+
+@media screen and (min-width : 500px) and (max-width : 767px){
+       .image_what_is_bonpedia2{
+              width: 65%;
+       }
+}
+
+@media screen and (max-width : 992px) and (min-width:767px){
+       .image_what_is_bonpedia2{
+              width: 78%;
+       }
+       .custom_container2{
+              padding: 0 70px !important;
+              height: 317px;
+       }
+}

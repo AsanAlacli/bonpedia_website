@@ -1,0 +1,45 @@
+
+.the-team
+{
+    padding:60px 0;
+    background-color:#32396b;
+    color:#fff;
+}
+
+.the-team .left
+{
+    margin-bottom:20px;
+}
+
+.the-team .left img
+{
+    width:100%;
+}
+
+.the-team p
+{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.the-team .container > p
+{
+    color:#a4a4b4;
+}
+
+.the-team p a
+{
+    color:#fff;
+    text-decoration-line:underline;
+}
+
+.the-team .right
+{
+   padding-top:70px;
+}
+
+.the-team .right p
+{
+    margin-top:15px;
+}
+

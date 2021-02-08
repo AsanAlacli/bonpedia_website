@@ -1,0 +1,43 @@
+
+
+.what-is-bonpedia
+{
+       padding:70px;
+       background-color:#f5f5fb;
+}
+
+@media(max-width:553px)
+{
+       .what-is-bonpedia
+       {
+              padding:90px 6px 80px;
+              
+       }
+}
+
+.what-is-bonpedia .col-lg-5 .v
+{
+       width:100%;
+       margin-bottom:25px;
+}
+
+.what-is-bonpedia .col-lg-5 .v img
+{
+       width:64%;
+       display:block;
+       margin:auto;
+}
+
+.what-is-bonpedia .h1
+{
+   font-size:2.3rem;
+   margin-top:30px;
+}
+
+.what-is-bonpedia p
+{
+       font-size:19px;
+       font-weight:bold;
+       margin-top:15px;
+       line-height:1.8;
+}

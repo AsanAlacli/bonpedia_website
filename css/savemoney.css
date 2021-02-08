@@ -1,0 +1,126 @@
+
+.savemoney {
+    background: url("../images/Mockup-3_de.png") 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    height: 768px;
+    min-height: 100%;
+    min-width: 100%;
+    background-size: 100% 100%;
+}
+
+
+.savemoney .text
+{
+    position: relative;
+    top: 420px;
+    left:-10%;
+    width: 309px;
+    height: 47px;
+    text-align: left;
+    font: normal normal bold 42px Arial;
+    letter-spacing: 0px;
+    color: #221C47; !important
+    opacity: 1;
+}
+
+
+
+.savemoney  .mockup6 img
+{
+       position: relative;
+       margin-top: 13%;
+       margin-left: 62%;
+       transform: translate(-50%,-50%);
+}
+
+.savemoney hr {
+       position: relative;
+       top: 4px;
+       width: 339px;
+       border: 2px solid #F39423;
+       border-radius: 5px;
+       opacity: 1;
+}
+
+.savemoney ul.a {
+       position: relative;
+       left:-6%;
+       top:55%;
+       list-style-type: fullcircle;
+       text-align: left;
+       font: normal normal normal 21px/40px Arial;
+       letter-spacing: 0px;
+       color: #221C47;
+       opacity: 1;
+       width: 315px;
+
+}
+
+
+@media(max-width:892px)
+{
+       .savemoney
+       {
+       height: 168px;
+       top:-380%;
+
+       background-size:100% 46%;
+       }
+
+       .savemoney  .mockup5 img
+       {
+       position: relative;
+       transform: translate(-50%,-50%);
+       height: 568px;
+       width: 289px;
+       }
+
+       .savemoney .text
+       {
+       position: relative;
+       top: 1248px;
+       left: 10px;
+       width: 269px;
+       height: 47px;
+       text-align: center;
+       font: normal normal bold 26px Arial;
+
+       }
+
+
+     .savemoney .text  .text2
+       {
+       position: relative;
+       top: -800px;
+       left: 10px;
+       width: 269px;
+       height: 47px;
+       text-align: center;
+       font: normal normal bold 26px Arial;
+
+       }
+
+
+       .savemoney hr {
+       top: -810px;
+       width: 289px;
+       left: 5px;
+
+       }
+
+       .savemoney ul.a {
+       position: absolute;
+       left:6%;
+       top:-730px;
+       text-align: left;
+       font: normal normal normal 18px/35px Arial;
+       letter-spacing: 0px;
+       color: #221C47;
+       opacity: 1;
+       width: 299px;
+       }
+
+
+
+}

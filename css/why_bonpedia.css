@@ -1,0 +1,109 @@
+
+.top3 { margin-top:3%; }
+.top5 { margin-top:5%; }
+.top7 { margin-top:7%; }
+.top8 { margin-top:8%; }
+
+.whybonpedia
+{
+       border: 1px solid #707070;
+       opacity: 1;
+       width: 100%;
+       top:100px;
+       height: 550px;
+       background: #221C47 0% 0% no-repeat padding-box;
+       background-size: cover;
+
+}
+
+
+.whybonpedia .text
+{
+       position: relative;
+       top:40px;
+       font: normal normal bold 42px Arial;
+       letter-spacing: 0px;
+       color: #FFFFFF;
+       opacity: 1;
+}
+
+.whybonpedia  .mockup3 .imagemask
+{
+       position: absolute;
+       left: 15%;
+       height: 54%;
+       width:100%;
+}
+
+.whybonpedia .smallicons
+{
+       position: absolute;
+       left:0%;
+       margin-top: 23px;
+       width: 75px;
+       height: 75px;
+}
+
+.whybonpedia .innertext
+{
+       position: absolute;
+       left:11%;
+       margin-top: -210px;
+       width: 320px;
+       height: 172px;
+       text-align: left;
+       font: normal normal normal 24px/34px Arial;
+       letter-spacing: 0px;
+       color: #221C47;
+       opacity: 1;
+}
+
+@media(max-width:892px)
+{
+       .whybonpedia
+       {
+       padding:10px 6px 80px;
+       height: 1000px;
+       width: 100%;
+       }
+       .whybonpedia .text
+       {
+       position: relative;
+       top:20px;
+       font: normal normal bold 32px Arial;
+       letter-spacing: 0px;
+       color: #FFFFFF;
+       opacity: 1;
+       }
+       .whybonpedia  .mockup3 .imagemask
+       {
+       position: absolute;
+       width: 100%;
+       top: 100%;
+       height: 65%;
+       left:0%;
+       }
+       .whybonpedia .innertext
+       {
+       position: absolute;
+       left:4%;
+       margin-top: -110px;
+       width: 320px;
+       height: 172px;
+       text-align: center;
+       font: normal normal normal 17px/24px Arial;
+       }
+
+       .whybonpedia .square
+       {
+       width: 95%;
+       height: 225px;
+       padding: 0%;
+       }
+
+
+
+
+
+
+}

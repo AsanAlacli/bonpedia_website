@@ -1,0 +1,360 @@
+
+.landing-page
+{
+    min-height:93vh;
+    height: 665px;
+    background:#FFFFFF 0% 0% no-repeat padding-box;
+    background-size:cover;
+    padding-top:1px;
+    width: 100%;
+}
+
+.landing-page .navbar
+{
+    margin:0px;
+    hight:100px;
+    background: #221C47 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    width: 100%;
+
+
+}
+
+.landing-page .navbar .navbar-brand
+{
+    position: relative;
+    left: 240px ;
+
+}
+
+.landing-page .navbar .navbar-brand, .landing-page .navbar .nav-link
+{
+    font-weight:bold;
+    color:#fff !important;
+}
+
+.landing-page .navbar .navbar-brand img
+{
+    position: relative;
+    left:-100px;
+    top: 0px;
+    width: 100%;
+    height: 61px;
+}
+
+
+.landing-page .navbar .flag
+{
+    margin-right:5px;
+}
+
+.landing-page  .navbar .nav-link
+{
+    position: relative;
+    right:170px;
+    text-align: left;
+    font: normal  20px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.landing-page .navbar .nav-link img
+{
+    opacity: 1;
+    z-index: -1;
+    position: absolute;
+    left:-11px;
+    width: 125px;
+    height: 43px;
+    top:-1px;
+    background: none;
+
+}
+
+
+.landing-page .navbar .nav-link .downloadimage
+{
+    opacity: 1;
+    z-index: -1;
+    position: relative;
+    left:-11px;
+    width: 25px;
+    height: 40px;
+    top:-10px;
+    background: none;
+
+}
+.landing-page .navbar .navbar-collapse .dropdown-menu
+{
+    position: absolute;
+    left:-230px;
+    top:34px;
+}
+
+.landing-page .introduction-text
+{
+    max-width:470px;
+    padding-right:15px;
+    position: absolute;
+    transform:translateY(-50%);
+    z-index:2;
+}
+
+
+
+.landing-page .introduction-text .mockup1 img
+{
+    position: absolute;
+    top:158px;
+    left:80px;
+    z-index:2;
+}
+
+.landing-page .introduction-text .mockup2 img
+{
+    position: absolute;
+    top: 60px;
+    left: -270px;
+    width: 832px;
+    height: 781px;
+}
+
+
+.landing-page .introduction-text p
+{
+    position: absolute;
+    top: 258px;
+    left: 620px;
+    width: 799px;
+    height: 240px;
+    text-align: left;
+    font: normal normal bold 72px/80px Arial;
+    letter-spacing: 0px;
+    color: #221C47;
+    opacity: 1;
+}
+
+.landing-page .introduction-text p.one
+{
+    position: absolute;
+    top: 509px;
+    left: 620px;
+    width: 596px;
+    height: 113px;
+    text-align: left;
+    font: normal normal normal 24px/34px Arial;
+    letter-spacing: 0px;
+    color: #221C47;
+    opacity: 1;
+
+}
+
+.landing-page .introduction-text button
+{
+    position: absolute;
+    top: 609px;
+    left: 620px;
+    padding:0;
+    width:140px;
+    border: none;
+    background: none;
+}
+
+.landing-page .introduction-text .appstore
+{
+    position: absolute;
+    width: 166px;
+    left: -182px;
+    height: 50px;
+    margin-left:-30px;
+}
+.landing-page .introduction-text .playstore
+{
+    position: absolute;
+    width: 166px;
+    left: 20px;
+    height: 50px;
+    margin-left:-30px;
+}
+
+.landing-page .introduction-text button img
+{
+    position: absolute;
+    top: 19px;
+    width: 166px;
+    left: 180px;
+    height: 50px;
+    margin-left:30px;
+
+}
+
+.landing-page .introduction-text button:nth-of-type(1)
+{
+    margin-right:7px;
+}
+
+.landing-page .introduction-text .share
+{
+    margin-top:20px;
+}
+
+.landing-page .introduction-text .share span
+{
+    font-size:19px;
+    color:#a4a4b4;
+}
+
+.landing-page .introduction-text .share a
+{
+   margin-left:17px;
+   font-size:20px;
+}
+
+.landing-page .introduction-text .share span.two
+{
+    margin-left:16px;
+    cursor: pointer;
+}
+
+.landing-page .introduction-text .share a:nth-of-type(2), .landing-page .introduction-text .share .two
+{
+    color:#fff;
+}
+
+.landing-page .introduction-text .coming-soon
+{
+    width:90px;
+    height:90px;
+    background-color:#fff;
+    border-radius:50%;
+    padding-top:17px;
+    text-align:center;
+    font-weight:bold;
+    position: absolute;
+    left:650px;
+    top:680px;
+    border:2px dashed #f00;
+    display:none;
+}
+
+@media(max-width:500px)
+{
+    .landing-page .introduction-text .coming-soon
+    {
+        left:70px;
+        top:80%;
+    }
+}
+
+
+@media (max-width:892px)
+{
+    .landing-page .introduction-text .firsttext1 {
+        position: absolute;
+        top: 78px;
+        left: 30px;
+        width: 311px;
+        height: 180px;
+        text-align: center;
+        font: normal normal bold 30px/35px Arial;
+        letter-spacing: 0px;
+        color: #221C47;
+        opacity: 1;
+    }
+
+    .landing-page .introduction-text p.one    {
+        top: 200px;
+        left: 30px;
+        width: 309px;
+        height: 53px;
+        text-align: center;
+        font: normal normal normal 18px/24px Arial;
+
+    }
+    .landing-page .introduction-text .mockup1 img
+    {
+        position: absolute;
+        top:300px !important;
+        left:90px !important;
+        width: 182px !important;
+        height: 381px !important;
+        z-index:2;
+    }
+
+
+
+    .landing-page .introduction-text .mockup2 img
+    {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        width: 372px;
+        height: 701px;
+    }
+
+        .landing-page .introduction-text .appstore .bcs
+    {
+        position: absolute;
+        top:1335%;
+        width: 126px;
+        left: 45px;
+        height: 30px;
+        margin-left:-30px;
+    }
+    .landing-page .introduction-text .playstore .bcs
+    {
+        position: relative;
+        top:1335%;
+        width: 126px;
+        left: 15px;
+        height: 30px;
+        margin-left:-30px;
+    }
+
+}
+
+
+
+@media(max-width:891.98px) {
+
+        .landing-page
+    {
+        height: 765px;
+        width: 100%;
+    }
+
+    .navbar-expand-lg .navbar-toggler  {
+        display: none;
+    }
+
+        .landing-page .navbar .navbar-brand .bonimg
+    {
+    position: relative;
+    left:-250px;
+    top: 0px;
+    width: 166px;
+    height: 31px;
+    }
+
+    .landing-page .navbar .navbar-collapse .dropdown
+    {
+   display: block;
+    }
+
+    .landing-page  .navbar .navbar-collapse .nav-link img
+    {
+        position: relative;
+        right:170px;
+        text-align: left;
+        font: normal  20px Arial;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+
+
+}

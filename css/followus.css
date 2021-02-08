@@ -1,0 +1,189 @@
+.followus
+{
+    position: relative;
+    top:50%;
+    width: 100%;
+    height: 384px;
+    background: #EBEBEB 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.followus .left
+{
+    text-align:center;
+    min-height:370px;
+    padding-top:70px;
+}
+
+.followus .left .lefttext
+{
+    position: relative;
+    width: 352px;
+    height: 47px;
+    left:18%;
+    text-align: left;
+    font: normal normal bold 42px/52px Arial;
+    letter-spacing: 0px;
+    color: #221C47;
+    opacity: 1;
+}
+
+@media (min-width:768px) and (max-width:991.98px)
+{
+    .followus .left
+    {
+        padding-top:0;
+    }
+
+    .followus p
+    {
+        font-size:40px;
+    }
+}
+
+@media(max-width:775.98px)
+{
+    .followus .left
+    {
+        padding-top:0px;
+        min-height:300px;
+    }
+}
+
+.followus a
+{
+    padding:22px 10px;
+    text-decoration:none;
+    position:relative;
+    left:-12%;
+
+
+}
+
+.followus a input
+{
+    visibility: hidden;
+
+}
+
+.followus a:hover
+{
+    text-decoration:none;
+    color:#fff;
+    opacity:.8;
+}
+
+.followus .right
+{
+    text-align:center;
+    min-height:370px;
+    padding-top:70px;
+}
+
+.followus .righttext
+{
+    position: relative;
+    width: 394px;
+    height: 99px;
+    text-align: left;
+    font: normal normal bold 42px/52px Arial;
+    letter-spacing: 0px;
+    color: #221C47;
+    opacity: 1;
+}
+
+.followus .righttext2
+{
+    position: absolute;
+    left:-60px;
+    top: 165px;
+    width: 492px;
+    height: 80px;
+    opacity: 1;
+    font: normal normal bold 22px/32px Arial;
+    color: #ffffff;
+
+
+}
+
+.followus .right .rightimage
+{
+    position: relative;
+    left:-90px;
+    width: 392px;
+    height: 100px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #534A99;
+    opacity: 1;
+
+}
+@media (max-width:892px)
+{
+    .followus
+    {
+        position: relative;
+        top:79%;
+        width: 100%;
+        height: 373px;
+        background: #EBEBEB 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .followus .righttext
+    {
+        position: absolute;
+        top:-70%;
+        left:0%;
+        width: 100%;
+        height: 49px;
+        text-align: center;
+        font: normal normal bold 22px/24px Arial;
+
+    }
+
+    .followus .left .lefttext
+    {
+        position: absolute;
+        top:-18%;
+        width: 100%;
+        height: 25px;
+        text-align: left;
+        font: normal normal bold 22px/52px Arial;
+
+    }
+
+
+    .followus .right .rightimage
+    {
+        position: absolute;
+        top:-52%;
+        left:45px;
+        width: 80%;
+        height: 100px;
+        text-align: left;
+        letter-spacing: 0px;
+        color: #534A99;
+        opacity: 1;
+    }
+
+    .followus .righttext2
+    {
+         position: absolute;
+        top:-57%;
+        text-align: center;
+        left:5%;
+        width: 312px;
+        height: 50px;
+        opacity: 1;
+        font: normal normal bold 18px/28px Arial;
+        color: #FFFFFF;
+    }
+
+    .followus .left
+    {
+        position:relative;
+        top:91%;
+        left:11%;
+    }
+}
