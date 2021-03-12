@@ -1,8 +1,7 @@
 .behindbonpedia
 {
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    height: 1120px;
-    background-repeat: no-repeat;
+    height: 1090px;
     z-index: 1;
 
 }
@@ -10,11 +9,12 @@
 .behindbonpedia .mask
 {
     position: absolute;
-    top: 700%;
+    top: -200%;
+    height:1090px;
     left:0px;
-    opacity: 0.1;
+    opacity: 0.2;
     z-index: 1;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     width: 100%;
 }
 
@@ -244,8 +244,8 @@
 
     .behindbonpedia
     {
-    height: 1920px;
-    background-repeat: no-repeat;
+    height: 2520px;
+    background-repeat: repeat-y;
     z-index: 1;
 
     }
@@ -254,29 +254,20 @@
         margin-bottom:30px;
         top: 20px;
         padding: 20px;
-        font: normal normal bold 24px/20px Arial;
+        font: normal normal bold 24px/30px Arial;
     }
 
     .behindbonpedia .titletext
     {
         top: 0px;
-        width: 90%;
-        height: 83px;
-        font: normal normal normal 14px/18px Arial;
-        margin:5%;
+        width: 100%;
+        height: 113px;
+        font: normal normal normal 14px/20px Arial;
+        margin-bottom:15%;
     }
 
 
-    .behindbonpedia p
-    {
-        text-align: center;
-        font: normal normal normal 10px/14px Arial;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        opacity: 1;
-        width: 252px;
-        height: 62px;
-    }
+
     .behindbonpedia .titletext2 br
     {
         display:none;
@@ -285,22 +276,30 @@
 
     .behindbonpedia .titletext2
     {
-        top:-28%;
-        margin: 9%;
+        position:absolute;
+        top:50%;
+        height: auto;
+        left:-5%;
+        margin: 5%;
         width:100%;
         text-align: center;
-        font: normal normal normal 14px/28px Arial;
+        font: normal normal normal 14px/20px Arial;
     }
 
     .behindbonpedia h3
     {
-        position:relative;
+         position:absolute;
         width: 100%;
-        margin-top:-65%;
-        height: 31px;
+        top:25%;
+        height: auto;
+        margin: auto;
+        left:0%;
         text-align: center;
-        font: normal normal bold 18px/34px Arial;
-        margin-bottom:0%;
+        font: normal normal bold 15px/24px Arial;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+        padding: 5%;
     }
 
     .behindbonpedia .disc1
@@ -308,9 +307,9 @@
         position:relative;
         top:-38%;
         width: 100%;
-        height: 139px;
+        height: 149px;
         box-shadow: 0px 3px 6px #00000029;
-        margin-bottom: 0%;
+        margin-bottom: 18%;
     }
     .behindbonpedia .disc2
     {
@@ -319,7 +318,8 @@
         width: 100%;
         height: 139px;
         box-shadow: 0px 3px 6px #00000029;
-        margin-bottom: 0%;
+        margin-bottom: 18%;
+
     }
     .behindbonpedia .disc3
     {
@@ -328,7 +328,7 @@
         width: 100%;
         height: 139px;
         box-shadow: 0px 3px 6px #00000029;
-        margin-bottom: 0%;
+        margin-bottom: 18%;
     }
     .behindbonpedia .disc4
     {
@@ -337,7 +337,7 @@
         width: 100%;
         height: 139px;
         box-shadow: 0px 3px 6px #00000029;
-        margin-bottom: 0%;
+        margin-bottom: 18%;
     }
     .behindbonpedia .disc5
     {
@@ -346,7 +346,7 @@
         width: 100%;
         height: 139px;
         box-shadow: 0px 3px 6px #00000029;
-        margin-bottom: 0%;
+        margin-bottom: 12%;
     }
 
         .behindbonpedia .disc6
@@ -356,7 +356,7 @@
         width: 100%;
         height: 139px;
         box-shadow: 0px 3px 6px #00000029;
-        margin-bottom: 0%;
+        margin-bottom: 10%;
     }
     .behindbonpedia .disc7
     {
@@ -365,7 +365,7 @@
         width: 100%;
         height: 139px;
         box-shadow: 0px 3px 6px #00000029;
-        margin-bottom: 0%;
+        margin-bottom: 8%;
     }
     .behindbonpedia .disc8
     {
@@ -374,17 +374,18 @@
         width: 100%;
         height: 139px;
         box-shadow: 0px 3px 6px #00000029;
-        margin-bottom: 0%;
+        margin-bottom: 8%;
     }
     .behindbonpedia  .image1
     {
-        position:relative;;
-        top:-155%;
+        position:relative;
+        top:-145%;
         left:23%;
         width: 150px;
         height: 150px;
         opacity: 1;
-        margin-bottom: 20%;
+        margin-bottom: 30%;
+
 
     }
 
@@ -399,8 +400,20 @@
         margin-bottom: 20%;
 
     }
-
-
+    .behindbonpedia .mask
+    {
+       display: none;
+    }
+.behindbonpedia p
+{
+    text-align: center;
+    font: normal normal normal 18px/28px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 252px;
+    height: 62px;
+}
 
 
 }

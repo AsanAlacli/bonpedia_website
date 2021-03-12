@@ -3,6 +3,8 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Bonpedia</title>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,9 +13,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-        <link rel="icon" href="images/Negative - without text.png" style="width: 100%; height: 100%; !important;" type="image/x-icon">
-
+        <link rel="icon" href="Images/Favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="css/Landing.css">
+        <link rel="stylesheet" href="css/style.css"><!-- subscribe-->
         <link rel="stylesheet" href="css/why_bonpedia.css">
         <link rel="stylesheet" href="css/allinoneplace.css">
         <link rel="stylesheet" href="css/stayincontrol.css">
@@ -23,6 +25,8 @@
         <link rel="stylesheet" href="css/ComingNext.css">
         <link rel="stylesheet" href="css/followus.css">
         <link rel="stylesheet" href="css/Footer.css">
+        <link href="css/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -32,7 +36,7 @@
            <nav class="navbar navbar  navbar-expand-lg navbar-dark fixed-top">
                 <!-- Brand -->
                 <a class="navbar-brand" href="#home">
-                       <img  class="bonimg" src="images/Negative - for indigo background.svg" alt="logo"/>
+                       <img  class="bonimg" src="images/New logo.svg" alt="logo"/>
                 </a>
 
                 <button type="button" class="navbar-toggler collapsed" data-toggle="collapse"
@@ -47,10 +51,10 @@
                                      <img class="downloadimage" class="flag" src="Images/turkish.svg"></a>
                                  <div class="dropdown-menu mr-5" style="margin: 0px;">
                                         <a href="index.html" class="dropdown-item">
-                                            <img class="downloadimage" src="images/german.svg" alt="English"> Deutsch
+                                            <img class="downloadimage" src="images/german.svg" alt="Deutsch"> Deutsch
                                         </a>
-                                        <a href="index.html" class="dropdown-item">
-                                            <img class="downloadimage" src="images/english.svg" alt="Turkish">
+                                        <a href="index_en.html" class="dropdown-item">
+                                            <img class="downloadimage" src="images/english.svg" alt="English">
                                                English
                                         </a>
                                  </div>
@@ -59,29 +63,65 @@
                            <a href="#" class="nav-link  notinhandy mr-4" data-section=".allinoneplace">Özellikler</a>
                            <a href="#" class="nav-link notinhandy mr-4" data-section=".behindbonpedia">Hakkımızda</a>
                            <a href="#" class="nav-link  notinhandy mr-4" data-section=".followus">İletişim</a>
-                           <a href="#" class="nav-link yesinhandy" data-section=".landing-page">İndir
-                                 <img src="images/Download-button-for-desktop.png" style="left: -30px !important;" alt="logo"/>
-                           </a>
+                            <a href="#" class="downlaodapp" id="button1">
+                               <button class="yesinhandy">İndir
+                                   <img src="images/Download-button-for-desktop.png" alt="download"/>
+                               </button></a >
 
                        </div>
                 </div>
            </nav>
+
+            <!--            user_subscriber component               -->
+            <div class="bg-modal">
+                <div class="modal-contents">
+                    <img class="modalimg1" src="images/Gruppe 1964.svg" alt="">
+                    <div class="close">+</div>
+                    <h class="modaltitle" style="width:100%; left:0%;" >Başlamaya hazır mısın?</h>
+                    <p class="modaltext">E-mail adresini bizimle paylaş,</br>
+                        ve uygulamanın hazır olduğunu en hızlı sen öğren.
+                    </p>
+                    <div id="mc_embed_signup">
+                        <form action="https://gmail.us1.list-manage.com/subscribe/post?u=670d78e1e66f7173291bc5da9&amp;id=23e1953849"
+                              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <div >
+                                    <input  class="mc-field-group" placeholder="E-Mail-Adresin?" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                                <img class="modalimg2" src="images/Pfad 5757.svg" alt="sent"/>
+                                <div >
+                                    <input class="modalbutton" type="submit" value="Gönder" name="subscribe" id="mc-embedded-subscribe">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+           <div id="overlay"></div>
+           <!--            end of user_subscriber component               -->
            <div class="introduction-text">
 
                <a class="mockup1">
-                   <img class="img1" src="images/Mockup-1.png"/>
+                   <img class="img1 " src="images/Mockup-1.png"/>
                </a>
                <a class="mockup2">
                    <img class="img2" src="images/Gruppe maskieren 1.svg"/>
                </a>
-               <p class="firsttext1">Dijital <br>faturaların gücünü keşfedin</p>
+               <p class="firsttext1">Harcalamalarını <br>takip et!</p>
                <p class="one">3 saniyeden kısa bir sürede elektronik veya kağıt faturalarını kaydedip, harcama bilgilerine ulaşabilirsin.</p>
                <a class="appstore">
-                   <button class="bcs"><img src="images/download-on-appstore@2x.png" alt="AppStore" /></button>
+                   <button id="button2"><img src="images/download-on-appstore@2x.png" alt="AppStore" /></button>
                </a>
                <a class="playstore">
-                   <button class="bcs"><img src="images/download-google-play@2x.png" alt="GooglePlay" /></button>
+                   <button id="button3"><img src="images/download-google-play@2x.png" alt="GooglePlay" /></button>
                </a>
+                <div class="coming-soon">
+                    ÇOK YAKINDA
+                </div>
            </div>
        </div>
 
@@ -97,9 +137,6 @@
        <div class="whybonpedia">
               <div class="container">
                      <div class="text-center"><h2 class="text">Neden Bonpedia?</h2></div>
-                     <div class="mockup3">
-                            <img class="imagemask" src="images/Gruppe maskieren 2.svg"/>
-                     </div>
                      <div class="row">
                          <div class="col-12 col-md-6 col-lg-4  top8">
                              <img class="square" src="Images/Whitebackground-for-web.png"  style="width:100%">
@@ -111,14 +148,14 @@
                              <img class="square"  src="Images/Whitebackground-for-web.png"  style="width:100%">
                              <img class="smallicons" src="Images/Gruppe 39.svg"  style="width:100%">
                              <p class="innertext">Harcamaların hakkında endişelenme, onları  anla, planla
-                                 ve böylece hayatındaki daha önemli planlarına odaklan.</p>
+                                 ve böylece hayatındaki daha önemli planlara odaklan.</p>
 
                          </div>
                          <div class="col-12 col-md-6 col-lg-4 top8">
                              <img class="square"  src="Images/Whitebackground-for-web.png"  style="width:100%">
                              <img class="smallicons" src="Images/Gruppe 41.svg"  style="width:100%">
                              <p class="innertext">Kesinlikle dene! araştırmalarımız Bonpedia'nın, faturaları kullanarak akıllı bir
-                                 alışverişin anahtarı oldugunu gösteriyor.</p>
+                                 alışverişin anahtarı olduğunu gösteriyor.</p>
                          </div>
                      </div>
              </div>
@@ -131,14 +168,14 @@
        <div class="allinoneplace">
            <div class="container">
                <div class="mockup4"></div>
-               <img class="mockup4img" src="Images/Gruppe maskieren 8.svg">
                <div class="text">
                     <p class="text1">Hepsi Bir Arada</p>
                     <hr/>
                     <ul class="a">
                         <li>Kağıt faturanın fotoğrafını çek veya</li>
-                        <li>Dijital bir fatura yükle ve </li>
-                        <li>Bütün faturalarını kaydet</li>
+                        <li>Dijital faturanı yükle </li>
+                        <li>Bütün faturalarını kaydet ve</li>
+                        <li>Faturalarına istediğin zaman eriş</li>
                     </ul>
                 </div>
            </div>
@@ -153,12 +190,12 @@
                <img src="Images/Gruppe maskieren 7.svg">
                </div>
                 <div class="text">
-                    <p class="text2">Her şey senin konrolünde </p>
+                    <p class="text2">Her şey senin kontrolünde </p>
                     <hr/>
                     <ul class="a">
-                        <li>Harcam limitini belirle</li>
+                        <li>Harcama limitini belirle</li>
                         <li>Harcamalarını kontrol et</li>
-                        <li>Sana özel promosyonları ve fırsatları takip et</li>
+                        <li>Alışverişlerini optimize et</li>
                     </ul>
                 </div>
            </div>
@@ -172,11 +209,12 @@
                <div class="mockup6">
                </div>
                 <div class="text">
-                    <p class="text2">Tasarruf et</p>
+                    <p class="text2">Tasarruf Et</p>
                     <hr/>
                     <ul class="a">
                         <li>Hangi ürüne ne kadar harcama yaptığını gör</li>
-                        <li>Aldığın ürunlerin besin değerlerini takip et </li>
+                        <li>Paranı en çok nereye harcadığını takip et</li>
+                        <li>Belirlediğin hedeflere kolayca ulaş</li>
                     </ul>
                 </div>
            </div>
@@ -194,59 +232,41 @@
 
                             <div class="col-12 col-md-6 col-lg-6">
                                    <div class="disc1">
-                                          <h3>Yeni fırsatlardan </br>haberdar ol</h3>
-                                          <p>Günlük uyarılarımız sayesinde güncel olarak
-                                              Our daily alerts will allow you to keep you up-to-date with where to get
-                                                 your most
-                                                 frequent items for less money.</p>
+                                          <h3>Yeni fırsatlardan haberdar ol</h3>
+                                          <p>Günlük uyarılarımız sayesinde önceden almış olduğun
+                                              ürünleri daha ucuz nereden alabileceğini öğren.
+                                          </p>
                                    </div>
                             </div>
-
                             <div class="col-12 col-md-6 col-lg-6">
                                    <div class="disc2">
-                                          <h3>Healthy Lifestyle</h3>
-                                          <p>Keep track of what fills your shopping basket. Bonpedia allows you to keep
-                                                 track
-                                                 of your habit of spending on fast food vs. fruits and vegetables and
-                                                 help to
-                                                 reduce fast food consumption.</p>
+                                          <h3>Sağlıklı Yaşam İçin Besin Değerleri</h3>
+                                          <p>Alışveriş sepetinizdeki ürünleri takip edin.
+                                              <strong>Bonpedia </strong>satın aldığınız ürünlerin besin değerlerini takip ederek
+                                              daha sağlıklı beslenmenizi sağlar.
+                                          </p>
                                    </div>
                             </div>
 
                             <div class="col-12 col-md-6 col-lg-6">
                                    <div class="disc3">
-                                          <h3 class="mb-2">Shopping List Recommendation</h3>
-                                          <p >Based on your previous shopping lists Bonpedia will</br> create for you a
-                                                 shopping list according to several</br> supermarkets' price list. You can
-                                                 then select the</br> supermarket that is the most cheapest for you.</br> This will
-                                                 allow you to save money!</p>
-                                   </div>
-                            </div>
+                                          <h3 class="mb-2">Alışveriş Listeniz İçin Tavsiyeler</h3>
+                                          <p >Önceki alışveriş listenizdeki ürünlerin tamamını <strong>Bonpedia</strong></br>
+                                              takip ederek sizin için farklı marketlerdeki  ürün fiyatlarını sizin için karşılaştırır.
+                                              Böylece aynı ürünü daha ucuza nereden bulacağınızı
+                                              önererek tasarruf sağlamanıza katkıda bulunur.
+                                          </p>
 
-                            <div class="col-12 col-md-6 col-lg-6">
-                                   <div class="disc4">
-                                          <h3 class="mt-1 mb-2">Nutri Score</h3>
-                                          <p>For each item our App will provide a nutri score:
-                                              A to E with A meaning that the food item is healthy and E meaning that
-                                              is rather not healthy. In addition, nutrition details about
-                                              the product will be shown.</p>
                                    </div>
                             </div>
 
                             <div class="col-12 col-md-6 col-lg-6">
                                    <div class="disc5">
-                                          <h3>Daily Recipe Suggestions</h3>
-                                          <p>We will allow the users to access daily recipe suggestions. Along with the
-                                              recipe details, users will also have the information where to buy the
-                                              ingredients most cheapest.</p>
-                                   </div>
-                            </div>
+                                          <h3>Günlük Yemek Tarifi Önerileri</h3>
+                                          <p>Özel günleriniz veya günlük yemekleriniz için size özel yemek tarifleri sunar.
+                                             Menünuz için gereklenleri en uygun nereden bulacağınızı söyler.
+                                          </p>
 
-                            <div class="col-12 col-md-6 col-lg-6">
-                                   <div class="disc6">
-                                          <h3>Menu Suggestions</h3>
-                                          <p>Users can access menu suggestions for special events.
-                                              The App will also show the information where to shop cheap.</p>
                                    </div>
                             </div>
 
@@ -263,16 +283,17 @@
        <div class="behindbonpedia">
               <div class="container">
                   <img class="mask" src="Images/Gruppe maskieren 10.svg">
-                     <h2 class="h1">Behind Bonpedia</h2>
-                        <p class="titletext">Our DNA is made of the top talent in Product, Software development,
-                                              and Machine & Deep Learning. We came together with one vision:
-                            to bring you the best solution for smart shopping.</p>
+                     <h2 class="h1">Bonpedia Takımı</h2>
+                        <p class="titletext">DNA'mız Üretim, Yazılım Geliştirme ile  Makine ve Derin Öğrenme
+                                            yeteneklerinden oluşmaktadır. Takımımızı size 'akıllı alışveriş' için en iyi
+                                            çözümü üretmek vizyonu ile oluşturduk.
+                        </p>
                      <div class="row">
                             <div class="col-12 col-md-6 col-lg-3">
                                    <div class="disc1">
                                        <img class="image1" src="images/Aashish Agarwal@2x.png">
                                        <h3>Aashish Agarwal</h3>
-                                       <p class="titletext2">Software Developer, NLP,</br>Speech Recognition</p>
+                                       <p class="titletext2">Yazılım Geliştirme ,DDİ,</br>Konuşma Tanıma</p>
                                    </div>
                             </div>
 
@@ -280,7 +301,7 @@
                                    <div class="disc2">
                                        <img class="image1" src="images/Dr. Ahmet Aker@2x.png">
                                        <h3>Dr. Ahmet Aker</h3>
-                                       <p class="titletext2">Marketing, Sale,</br>Product Management</p>
+                                       <p class="titletext2">Pazarlama, Satış,</br>Ürün Yönetimi</p>
                                    </div>
                             </div>
 
@@ -288,7 +309,7 @@
                                    <div class="disc3">
                                        <img class="image1" src="images/Hasan Halacli@2x.png">
                                        <h3>Hasan Halacli</h3>
-                                       <p class="titletext2">Software Developer,</br>App Developer, Text Processing</p>
+                                       <p class="titletext2">Yazılım Geliştirme,</br>Uygulama Geliştirme, Metin İşleme</p>
                                    </div>
                             </div>
 
@@ -296,7 +317,7 @@
                                    <div class="disc4">
                                        <img class="image1" src="images/Ioannis Karatasis@2x.png">
                                        <h3>Ioannis Karatasis</h3>
-                                       <p class="titletext2">Project Management,</br>Backend Programmer / DevOps</p>
+                                       <p class="titletext2">Proje Yönetimi,</br>Arka Uç Programcısı / DevOps</p>
                                    </div>
                             </div>
 
@@ -304,7 +325,7 @@
                                    <div class="disc5">
                                        <img class="image2" src="images/Sameh Frihat@2x.png">
                                        <h3>Sameh Frihat</h3>
-                                       <p class="titletext2">Software Developer, Database,</br>App and Front End Developer</p>
+                                       <p class="titletext2">Yazılım Geliştirme, Veri tabanı,</br>Uygulama ve Ön Yüz Geliştirme</p>
                                    </div>
                             </div>
 
@@ -312,7 +333,7 @@
                                    <div class="disc6">
                                        <img class="image2" src="images/Dr. Vu Tran@2x.png">
                                        <h3>Dr. Vu Tran</h3>
-                                       <p class="titletext2">User Profiling, Behaviour</br>Analysis, Fraud Detection</p>
+                                       <p class="titletext2">Kullanıcı Profili Oluşturma,</br>Davranış Analizi</p>
                                    </div>
                             </div>
 
@@ -320,15 +341,14 @@
                                    <div class="disc7">
                                        <img class="image2" src="images/Vy Hofrichter@2x.png">
                                        <h3>Vy Hofrichter</h3>
-                                       <p class="titletext2">UX Research,</br>UI Design</p>
+                                       <p class="titletext2">UX Araştırma,</br>UI Tasarımı</p>
                                    </div>
                             </div>
-
                             <div class="col-12 col-md-6 col-lg-3">
                                    <div class="disc8">
                                        <img class="image2" src="images/Yuan Ma@2x.png">
                                        <h3>Yuan Ma</h3>
-                                       <p class="titletext2">IT security, Image Processing,</br> Deep Learning</p>
+                                       <p class="titletext2">BT Güvenliği, Görüntü işleme,</br> Derin Öğrenme</p>
                                    </div>
                             </div>
 
@@ -344,14 +364,17 @@
         <div class="getstarted">
             <div class="container">
                 <img class="mask" src="Images/Gruppe maskieren 11.svg">
-                <h2 class="h1">Get started now with Bondepia</h2></div>
-                <p>Store all receipts in one place, manage all expense and grow your savings NOW!</p>
+                <h2 class="h1">Bonpedianın Tam Zamanı</h2>
+                <p>Bütün faturalarınızı tek bir yerde tutarak, harcamalarınızı konrtol edin tasarruf etmeye ŞİMDİ başlayın!</p>
                 <a class="appstore">
-                    <button ><img  src="images/download-on-appstore@2x.png" alt="AppStore" /></button>
+                    <button id="button4"><img  src="images/download-on-appstore@2x.png" alt="AppStore" /></button>
                 </a>
                 <a class="playstore">
-                    <button  ><img  src="images/download-google-play@2x.png" alt="GooglePlay" /></button>
+                    <button  id="button5"><img  src="images/download-google-play@2x.png" alt="GooglePlay" /></button>
                 </a>
+                <div class="coming-soon1">
+                    ÇOK YAKINDA
+                </div>
             </div>
         </div>
 
@@ -367,7 +390,7 @@
                      <div class="row">
                             <div class="col-md-6">
                                    <div class="left">
-                                       <p class="lefttext">Follow us on:</p>
+                                       <p class="lefttext">Bizi Takip Edin :</p>
                                        <a href="https://twitter.com/bonpedia1" target="_blank">
                                            <img src="images/Icon awesome-twitter-square.svg">
                                        </a>
@@ -381,10 +404,10 @@
                             </div>
                             <div class="col-md-6">
                                    <div class="right">
-                                       <p class="righttext">You have questions </br>or feedback?</p>
+                                       <p class="righttext">Soru veya geribesleme?</p>
                                        <img class="rightimage" src="images/feedback.svg" >
-                                       <a class="righttext2" href="mailto:aker@is.inf.uni-due.de">
-                                           <input title="Bonpedia" type="button" >We love to hear from you</input>
+                                       <a class="righttext2" href="mailto:info@bonpedia.com">
+                                           <input title="Bonpedia" type="button" >Bizimle iletişime geçin</input>
                                        </a>
                                    </div>
                             </div>
@@ -398,15 +421,26 @@
 
        <!--                  Footer component               -->
 
-       <div class="footer">
+        <div class="footer">
               <div class="container">
-                     <p>&copy; 2021 Bonpedia |<a href="BonpediaPolicy.html" target="_blank"> Privacy Policy</a></p>
+                     <p class="footertext">&copy; 2021 Bonpedia |<a href="datenschutz.html" target="_blank"> Datenschutz |</a>
+                          <a href="impressum.html" target="_blank"> Kontakt, Impressum und Geschäftsführung</a></p>
               </div>
        </div>
 
        <!--            end of Footer component               -->
 
+   <!--            user_subscriber component               -->
+       <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+       <script type='text/javascript'>(function($)
+       {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';
+       ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';
+       ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);
+       </script>
 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script  src="js/function.js"></script>
+    <!--            end of user_subscriber component               -->
     <script src="js/main.js"></script>
     <script src="js/plugins.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->

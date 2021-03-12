@@ -1,12 +1,13 @@
 .followus
 {
-    position: relative;
-    top:50%;
     width: 100%;
     height: 384px;
     background: #EBEBEB 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
+
+
 
 .followus .left
 {
@@ -14,6 +15,8 @@
     min-height:370px;
     padding-top:70px;
 }
+
+
 
 .followus .left .lefttext
 {
@@ -27,6 +30,15 @@
     color: #221C47;
     opacity: 1;
 }
+/*
+@supports (-moz-appearance:none)
+{
+    .followus .left .lefttext
+    {
+    color:red;
+    }
+}
+*/
 
 @media (min-width:768px) and (max-width:991.98px)
 {
@@ -83,10 +95,10 @@
 .followus .righttext
 {
     position: relative;
-    width: 394px;
+    width: 100%;
     height: 99px;
     text-align: left;
-    font: normal normal bold 42px/52px Arial;
+    font: normal normal bold 34px/52px Arial;
     letter-spacing: 0px;
     color: #221C47;
     opacity: 1;
@@ -96,7 +108,7 @@
 {
     position: absolute;
     left:-60px;
-    top: 165px;
+    top: 122px;
     width: 492px;
     height: 80px;
     opacity: 1;
@@ -108,8 +120,9 @@
 
 .followus .right .rightimage
 {
-    position: relative;
-    left:-90px;
+    position: absolute;
+    top: 145px;
+    left:0px;
     width: 392px;
     height: 100px;
     text-align: left;
@@ -122,13 +135,16 @@
 {
     .followus
     {
-        position: relative;
-        top:79%;
-        width: 100%;
-        height: 373px;
-        background: #EBEBEB 0% 0% no-repeat padding-box;
-        opacity: 1;
+    position: relative;
+    height: 373px;
+    top:30%;
+    background: #EBEBEB 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
     }
+
+
+
 
     .followus .righttext
     {

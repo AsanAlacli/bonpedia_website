@@ -1,3 +1,4 @@
+ <!--            end of user_subscriber component
 $(document).ready(function(){
   
   $(".introduction-text .bcs").click(function()
@@ -10,4 +11,14 @@ $(document).ready(function(){
 })
 
 
+$(document).ready(function(){
 
+  $(".getstarted .bcs").click(function()
+  {
+      $(".getstarted .coming-soon1").fadeIn(600,function(){
+          $(this).fadeOut(5000);
+      })
+  })
+
+})
+-->
